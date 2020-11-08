@@ -1,3 +1,4 @@
+/*global*/
 html {
 	scroll-behavior: smooth;
 }
@@ -45,6 +46,7 @@ p {
 	color: #737373;
 }
 
+/*header*/
 header .container {
 	display: flex;
 	align-items: center;
@@ -84,6 +86,7 @@ header .fa-bars {
 	cursor: pointer;
 }
 
+/*showcase*/
 #showcase {
 	height: calc(100vh - 120px);
 }
@@ -122,6 +125,7 @@ header .fa-bars {
 	right: -10%;
 }
 
+/*about*/
 #about {
 	background: linear-gradient(#fff, #fff 25%, #f2f2f2 20%, #f2f2f2 95%, #fff 95%);
 	padding: 10% 0;
@@ -143,6 +147,7 @@ header .fa-bars {
 	box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
+/*product*/
 #product {
 	text-align: center;
 	background: #fff;
@@ -161,6 +166,7 @@ header .fa-bars {
 	color: lightgray;
 }
 
+/*process*/
 #process {
 	text-align: center;
 	background: #fff;
@@ -202,6 +208,7 @@ header .fa-bars {
 	margin: 12% 0 8% 0;
 }
 
+/*testimonial*/
 #testimonial {
 	background: #fff;
 	text-align: center;
@@ -253,6 +260,7 @@ figcaption {
 	color: #000;
 }
 
+/*footer*/
 footer {
 	background: #f2f2f2;
 	padding: 5% 0 3% 0;
@@ -330,6 +338,7 @@ hr {
 	margin: 10px;
 }
 
+/*responsive*/
 @media (max-width: 979px) {
 	#showcase img {
 		display: none;
